@@ -16,7 +16,7 @@
       <div
         v-for="(item, index) in expertise"
         :key="index"
-        class="w-full mx-6 flex-shrink-0"
+        class="w-full mx-6 flex-shrink-0 px-20"
       >
         <img :src="item.image" :alt="item.name" class="w-full h-auto mb-10" />
         <div class="flex">
