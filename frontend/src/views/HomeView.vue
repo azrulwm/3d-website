@@ -1,12 +1,15 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <Banner />
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import Banner from "@/components/Banner.vue";
 
 @Component({
-  components: {},
+  components: { Banner },
 })
 export default class HomeView extends Vue {}
 </script>
