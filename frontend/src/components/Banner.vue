@@ -3,6 +3,7 @@
     <img
       src="https://uploads-ssl.webflow.com/6450a38c30efcdeae58e15aa/646f143f3ad1fe199a68790b_123545-poster-00001.jpg"
       alt="home banner"
+      class="w-full h-auto overflow-visible"
     />
     <h1
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-7xl"
