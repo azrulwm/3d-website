@@ -5,7 +5,7 @@
       alt="home banner"
     />
     <h1
-      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-lg"
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-7xl"
     >
       Revolutionizing Brands with
       <span class="text-span-6">Digital Masterpieces</span>
