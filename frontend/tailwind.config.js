@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./public/**/*.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      transitionDelay: {
+        250: "250ms",
+        500: "500ms",
+      },
+    },
   },
   plugins: [],
 };
