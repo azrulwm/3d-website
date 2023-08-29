@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       transitionDelay: {
         250: "250ms",
-        500: "500ms",
       },
     },
   },

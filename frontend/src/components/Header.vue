@@ -2,7 +2,7 @@
   <header class="flex justify-between items-center mx-10 relative">
     <RouterLink :to="'/'">
       <img
-        class="w-32"
+        class="w-28 md:w-40"
         src="https://uploads-ssl.webflow.com/6450a38c30efcdeae58e15aa/6478768a5dc322b03d5180fc_6461bfdb72fa898a55ff132e_3-p-500.webp"
         alt="company logo"
     /></RouterLink>
@@ -33,11 +33,11 @@
       v-if="showMenu"
       class="menu-overlay fixed inset-0 h-screen w-screen bg-white z-10 flex justify-between"
     >
-      <div class="text-black text-6xl font-light cursor-pointer">
+      <div class="text-black text-3xl md:text-6xl font-light cursor-pointer">
         <div
           v-for="(routerLink, index) in routerLinks"
           :key="index"
-          class="m-10 group flex"
+          class="my-8 group flex"
           @click="() => redirectTo(routerLink.path)"
         >
           <span class="hidden group-hover:inline-block text-black text-sm">
@@ -47,8 +47,17 @@
             {{ routerLink.name }}
           </h1>
         </div>
+        <p class="block md:hidden text-base font-normal text-gray-400 mt-10">
+          Get in touch
+        </p>
+        <h3
+          class="block md:hidden text-xl text-black font-light mt-2 p-1 border-b-2 hover:border-gray-500"
+        >
+          info@3dadvertisers.com
+        </h3>
       </div>
-      <div class="self-center">
+
+      <div class="self-center hidden md:block">
         <div>
           <h3 class="text-2xl text-gray-300 mt-2">Malaysia</h3>
 

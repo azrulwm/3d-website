@@ -1,7 +1,10 @@
 <template>
   <div class="overflow-x-auto no-scrollbar flex flex-nowrap gap-10">
     <div v-for="(client, index) in clients" :key="index" class="flex-shrink-0">
-      <img :src="client.url" class="imageClass" />
+      <img
+        :src="client.url"
+        class="imageClass max-w-[100px] sm:max-w-[150px] md:max-w-[200px]"
+      />
     </div>
   </div>
 </template>
@@ -44,9 +47,9 @@ export default class Clients extends Vue {
 </script>
 
 <style scoped>
-.imageClass {
+/* .imageClass {
   max-width: 200px;
-}
+} */
 
 .no-scrollbar::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and newer versions of Opera */

@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto w-full">
     <div class="mt-20">
-      <div class="grid grid-cols-2">
+      <div class="sm:grid grid-cols-2">
         <div class="mx-20">
           <h3>/EXPERTISE</h3>
-          <h1 class="text-5xl font-light my-20">
+          <h1 class="text-3xl md:text-5xl font-light my-20">
             Unleash Your Brand's Potential with Our Services
           </h1>
         </div>
