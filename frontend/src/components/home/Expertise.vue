@@ -1,31 +1,33 @@
 <template>
-  <div class="mt-20 container">
-    <div class="grid grid-cols-2">
-      <div>
-        <h3>/EXPERTISE</h3>
-        <h1 class="text-5xl font-light my-20">
-          Unleash Your Brand's Potential with Our Services
-        </h1>
+  <div class="container mx-auto w-full">
+    <div class="mt-20">
+      <div class="grid grid-cols-2">
+        <div class="mx-20">
+          <h3>/EXPERTISE</h3>
+          <h1 class="text-5xl font-light my-20">
+            Unleash Your Brand's Potential with Our Services
+          </h1>
+        </div>
+        <div class="self-center">
+          <h3 class="text-center text-xl">What we do →</h3>
+        </div>
       </div>
-      <div class="self-center">
-        <h3 class="text-center text-xl">What we do →</h3>
-      </div>
-    </div>
 
-    <div class="overflow-x-auto no-scrollbar flex flex-nowrap">
-      <div
-        v-for="(item, index) in expertise"
-        :key="index"
-        class="w-full mx-6 flex-shrink-0 px-20"
-      >
-        <img :src="item.image" :alt="item.name" class="w-full h-auto mb-10" />
-        <div class="flex">
-          <p class="mx-10">0{{ index + 1 }}</p>
-          <div class="pl-28">
-            <h2 class="gradient-header">{{ item.name }}</h2>
-            <p class="text-2xl mt-10 w-2/3 leading-10 font-light">
-              {{ item.description }}
-            </p>
+      <div class="overflow-x-auto no-scrollbar flex flex-nowrap">
+        <div
+          v-for="(item, index) in expertise"
+          :key="index"
+          class="w-full flex-shrink-0 px-20"
+        >
+          <img :src="item.image" :alt="item.name" class="w-full h-auto mb-10" />
+          <div class="flex">
+            <p class="mx-10">0{{ index + 1 }}</p>
+            <div class="pl-28">
+              <h2 class="gradient-header">{{ item.name }}</h2>
+              <p class="text-2xl mt-10 w-2/3 leading-10 font-light">
+                {{ item.description }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,8 +82,8 @@ export default class Expertise extends Vue {
 
 <style scoped>
 .container {
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
 }
 
 .gradient-header {

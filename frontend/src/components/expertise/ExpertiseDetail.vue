@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container grid grid-cols-2 gap-40">
+    <div class="container grid grid-cols-2 gap-40 mx-auto">
       <div
         v-for="(item, index) in expertise"
         :key="index"

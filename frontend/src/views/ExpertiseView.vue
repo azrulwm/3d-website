@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="container">
+  <div class="w-full">
+    <div class="container mx-auto">
       <p class="mb-20">/ EXPERTISE</p>
       <h1 class="text-7xl font-light leading-[6rem]">
         We Leverage Brands
@@ -47,7 +47,7 @@ export default class ExpertiseView extends Vue {}
 
 <style scoped>
 .container {
-  padding-top: 10vw;
+  width: 100%;
   padding-bottom: 10vw;
   padding-left: 12vw;
   padding-right: 12vw;
