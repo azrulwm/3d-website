@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="mx-32">
     <p>/ WHY US</p>
 
     <div
@@ -55,8 +55,8 @@ export default class WhyUs extends Vue {
 
 <style scoped>
 .container {
-  padding-left: 12vw;
-  padding-right: 12vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
 }
 
 .title {

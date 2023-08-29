@@ -10,7 +10,7 @@
           <img :src="item.img" :alt="item.name" />
         </div>
         <div class="flex items-center">
-          <h4 class="text-gradient text-lg">
+          <h4 class="text-gradient text-lg uppercase">
             {{ item.name }}
           </h4>
           <div class="linie-text-gradient flex-grow"></div>
