@@ -10,6 +10,17 @@ const routes: Array<RouteConfig> = [
     name: "home",
     component: HomeView,
   },
+  {
+    path: "/expertise",
+    name: "expertise",
+    component: () =>
+      import(/* webpackChunkName: "Expertise" */ "@/views/ExpertiseView.vue"),
+  },
+  {
+    path: "/*",
+    name: "home",
+    component: HomeView,
+  },
 ];
 
 const router = new VueRouter({

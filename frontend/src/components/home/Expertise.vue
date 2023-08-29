@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-20">
-    <div class="container grid grid-cols-2">
+  <div class="mt-20 container">
+    <div class="grid grid-cols-2">
       <div>
         <h3>/EXPERTISE</h3>
         <h1 class="text-5xl font-light my-20">

@@ -5,7 +5,7 @@
     <div
       v-for="(reason, index) in reasons"
       :key="index"
-      class="flex justify-between w-full my-10 border-b-2 border-gray-800"
+      class="flex justify-between w-full my-10 border-b-2 border-gray-800 hover:border-gray-300"
     >
       <div class="flex">
         <p class="w-1/6">/{{ index + 1 }}</p>

@@ -10,11 +10,11 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Banner from "@/components/Banner.vue";
-import Expertise from "@/components/Expertise.vue";
-import AboutUs from "@/components/AboutUs.vue";
-import WhyUs from "@/components/WhyUs.vue";
-import Clients from "@/components/Clients.vue";
+import Banner from "@/components/home/Banner.vue";
+import Expertise from "@/components/home/Expertise.vue";
+import AboutUs from "@/components/home/AboutUs.vue";
+import WhyUs from "@/components/home/WhyUs.vue";
+import Clients from "@/components/home/Clients.vue";
 
 @Component({
   components: {
